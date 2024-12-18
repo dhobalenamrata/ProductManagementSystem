@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <welcome-file-list>
+    <welcome-file>main.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>EditProductDetails</display-name>
+    <servlet-name>EditProductDetails</servlet-name>
+    <servlet-class>servlet.EditProductDetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditProductDetails</servlet-name>
+    <url-pattern>/EditProductDetails</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateProductServlet</display-name>
+    <servlet-name>UpdateProductServlet</servlet-name>
+    <servlet-class>servlet.UpdateProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateProductServlet</servlet-name>
+    <url-pattern>/UpdateProductServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
